@@ -53,25 +53,25 @@ export const projects = [
     title: 'Youtube clone with tailwind css',
     year: '2021',
     tags: ['Development', 'clone'],
-    iconUrl: '../../public/image.png',
+    iconUrl: '../assets/image.png',
   },
   {
     title: 'Rock Paper Scissors',
     year: '2022',
     tags: ['Python', 'OpenCV'],
-    iconUrl: '../../public/image (3).png',
+    iconUrl: '../assets/image (3).png',
   },
   {
     title: 'Fan controlled via mobile phone',
     year: '2023',
     tags: ['IOT', 'ESP8266'],
-    iconUrl: '../../public/image (2).png',
+    iconUrl: '../assets/image (2).png',
   },
   {
     title: 'Ecommerce website',
     year: '2024',
     tags: ['Frontend', 'Backend','express','NextJs'],
-    iconUrl: '../../public/image (1).png',
+    iconUrl: '../assets/image (1).png',
   },
 ]
 
