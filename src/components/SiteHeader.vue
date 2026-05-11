@@ -42,7 +42,7 @@ onBeforeUnmount(() => {
       ? 'w-11/12 max-w-3xl border-line-soft bg-panel/70 px-5 shadow-2xl shadow-black/15 backdrop-blur-xl md:px-6'
       : 'w-11/12 max-w-7xl border-transparent bg-transparent px-6 shadow-none backdrop-blur-0 md:px-10'"
   >
-    <a href="#" class="text-xl font-black tracking-tight">DC</a>
+    <a href="#" class="text-xl font-black tracking-tight">Portfolio</a>
 
     <nav
       class="hidden items-center text-sm text-text-muted transition-all duration-500 ease-out md:flex"

@@ -1,3 +1,8 @@
+import ecommerceImage from '../assets/image (1).png'
+import iotImage from '../assets/image (2).png'
+import rockPaperScissorsImage from '../assets/image (3).png'
+import youtubeCloneImage from '../assets/image.png'
+
 export const navItems = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#education' },
@@ -53,25 +58,25 @@ export const projects = [
     title: 'Youtube clone with tailwind css',
     year: '2021',
     tags: ['Development', 'clone'],
-    iconUrl: '../assets/image.png',
+    iconUrl: youtubeCloneImage,
   },
   {
     title: 'Rock Paper Scissors',
     year: '2022',
     tags: ['Python', 'OpenCV'],
-    iconUrl: '../assets/image (3).png',
+    iconUrl: rockPaperScissorsImage,
   },
   {
     title: 'Fan controlled via mobile phone',
     year: '2023',
     tags: ['IOT', 'ESP8266'],
-    iconUrl: '../assets/image (2).png',
+    iconUrl: iotImage,
   },
   {
     title: 'Ecommerce website',
     year: '2024',
     tags: ['Frontend', 'Backend','express','NextJs'],
-    iconUrl: '../assets/image (1).png',
+    iconUrl: ecommerceImage,
   },
 ]
 
