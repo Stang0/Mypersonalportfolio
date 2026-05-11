@@ -22,9 +22,7 @@ import SectionEyebrow from './SectionEyebrow.vue'
         >
           <summary class="flex cursor-pointer list-none items-center justify-between gap-6 text-base font-bold text-text-main">
             <span><span class="mr-3 text-text-muted">{{ String(index + 1).padStart(2, '0') }}.</span>{{ faq.question }}</span>
-            <svg class="h-4 w-4 shrink-0 transition group-open:rotate-180" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+            <span class="material-symbols-rounded shrink-0 transition group-open:rotate-180" aria-hidden="true">expand_more</span>
           </summary>
           <p class="mt-4 max-w-3xl pl-9 text-sm leading-6 text-text-muted">{{ faq.answer }}</p>
         </details>

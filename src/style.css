@@ -60,6 +60,8 @@ body {
   min-height: 100vh;
 }
 
+
+
 .hero-grid::before {
   width: 100%;
   position: absolute;

@@ -66,24 +66,9 @@ onBeforeUnmount(() => {
       class="grid h-10 w-10 place-items-center rounded-full text-text-main transition hover:bg-chip"
       @click="toggleTheme"
     >
-      <svg v-if="isDark" class="h-4 w-4" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path
-          d="M20 14.6A7.7 7.7 0 0 1 9.4 4a8.2 8.2 0 1 0 10.6 10.6Z"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-      <svg v-else class="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path
-          d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.7-5.7 1.4-1.4M4.9 19.1l1.4-1.4m11.4 0 1.4 1.4M4.9 4.9l1.4 1.4M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
+      <span class="material-symbols-rounded" aria-hidden="true">
+        {{ isDark ? 'dark_mode' : 'light_mode' }}
+      </span>
     </button>
   </header>
 </template>
